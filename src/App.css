@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1920px;
+    background: rgb(219, 148, 148);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    background: red;
+    width: 1920px;
+}
+
+.footer1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px;
+    background-color: #2D2013;
+    height: 100px;
+
+    p {
+        font-size: 16px;
+        color: white;
+    }
+}
+
+.footer2 {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    background-color: #23180D;
+    height: 100px;
+}
+
+.namefood {
+    color: white;
+    display: flex;
+    gap: 10px;
+
+    .links {
+        color: #D57D1F;
+        text-decoration: none;
+    }
+
+}
+
+.footerp p {
+
+    color: white;
+
+    img {
+        padding-left: 10px;
+    }
+}
+
+.socials {
+    display: flex;
+
+    p {
+        color: white;
+    }
+}
+
+.ichkifooter {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards {
+    background: #2D2013;
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    width: 1140px;
+    padding-top: 50px;
+}
+
+.ichkicart {
+    display: flex;
+    flex-direction: column;
+    color: #D57D1F;
+    align-items: center;
+}
+
+.ichkicart:hover {
+    color: #FFC439;
+}
+
+.header {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91px;
+}
+
+.headerform {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+    background: #C52D2F;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.api {
+    text-decoration: none;
+    color: white;
+
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+
+.api:hover {
+    background: #C52D2F;
+
+}
+
+.homeapisearch {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+    input {
+        font-size: 22px;
+        width: 150px;
+        border-radius: 6px;
+    }
+
+    input::placeholder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+    }
+}
+.detailcard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px;
+    background: #2D2013;
+}
+.detailmincard{
+    width: 1140px;
+}
+.detailname{
+    width: 400px;
+    color: white;
+    font-weight: 300;
+}
+.detailinstruction{
+    color: white;
+    display: flex;text-align: center;
+    flex-direction: column;
+    width: 700px;
+}
